@@ -192,6 +192,7 @@ hr {
 
 .footer {
         font-family: 'Abel';
+        font-size: 15px;
         padding-left: 230px;
         padding-top: 50px;
         padding-bottom: 30px;
@@ -213,7 +214,12 @@ hr {
 
 .logo {
         float: left;
+        padding-right: 10px
         
+}
+
+#logo{
+padding-top: 15px;
 }
 
 hr{
