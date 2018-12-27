@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+html {
+        /* padding: 15px; */
+}
+
+p {
+        margin-bottom: 0 
+}
+
+body {
+        font-family: 'Abel', sans-serif;
+        background: #F6F9FC;
+}
+
+main {
+        background-color: #F6F9FC;
+}
+
+header {
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: white;
+        border-bottom: 1px solid lightgray
+}
+
+.my-breadcrumb {
+        border-bottom: 1px solid lightgray
+}
+
+.my-breadcrumb .breadcrumb {
+        background-color: #F6F9FC;
+        margin-bottom: 0
+}
+
+.my-breadcrumb li a {
+        font-family: Abel;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 14px;
+
+        color: #6B7C93;
+}
+
+
+#menu {
+        margin-left: 20px;
+        font-family: 'Abel';
+
+
+}
+
+
+#menu li {
+        font-family: Abel;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 12px;
+        text-transform: uppercase;
+}
+
+#menu .rectangle {
+        background: #E0E2E4 !important;
+        width: 3px;
+        height: 100%;
+}
+
+#menu button {
+        border: 2px solid #6B7C93;
+        box-sizing: border-box;
+        border-radius: 18px;
+        background-color: #F6F9FC;
+        margin-left: 10px;
+        height: 100%;
+}
+
+
+
+.filter {
+        font-family: 'Abel';
+        padding-top: 70px;
+        padding-left: 20px;
+        padding-right: 20px;
+}
+
+
+input[type=text],
+select {
+        width: 100%;
+        padding: 12px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+}
+
+.physicians {
+        font-family: 'Abel';
+        border-left: 1px solid lightgray
+}
+
+.physicians>.row>.col-6:last-child {
+        position: relative;
+}
+
+.custom-select {
+        position: absolute;
+        bottom: 0;
+        right: 20%;
+}
+
+.number {
+        font-size: 50px;
+        color: rgb(16, 152, 194);
+
+
+}
+
+#sort {
+        margin-top: 100px;
+        width: 20%;
+        margin-left: 250px;
+        height: 50px;
+}
+
+.card {
+        width: 95%;
+        margin-top: 20px;
+        font-size: 14px;
+}
+
+.card-body table {
+        width: 100%
+}
+
+.card-body table td:first-child {
+        vertical-align: top
+}
+
+.img {
+        float: left;
+        padding-right: 15px;
+}
+
+.number-tel {
+        color: rgb(16, 152, 194);
+        font-size: 20px
+}
+
+.card-title+.row>.col-3 {
+        margin-top: 20px
+}
+
+.card-title+.row>.col-9{
+        padding-left: 0px
+}
+
+.button {
+        cursor: pointer;
+        border: 2px solid #6B7C93;
+        box-sizing: border-box;
+        border-radius: 18px;
+        background-color: white;
+        padding: 5px 15px;
+        margin-top: 15px;
+        text-align: center;
+        color: grey;
+        width:20%;
+        font-size: 12px;
+}
+
+.button:hover {
+        text-decoration: none
+}
+
+.btn-toolbar {
+        margin: 30px 0
+}
+
+
+hr {
+        width: 100%;
+        color: grey;
+}
+
+
+
+
+.footer {
+        font-family: 'Abel';
+        padding-left: 230px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        background: #F6F9FC;
+        border-top: 1px solid lightgray
+}
+
+.footer a{
+        color: gray;
+        
+}
+
+
+.mini {
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+}
+
+.logo {
+        float: left;
+        
+}
+
+hr{
+        width:80%;
+}
+
+.rowfoot p{
+        font-size: 13px
+        
+}
+
+.rowfoot>.row:last-child a{
+        color: gray;
+        font-size: 13px
+        }
